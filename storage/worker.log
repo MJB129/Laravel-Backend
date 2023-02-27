@@ -1,0 +1,1618 @@
+  2022-12-19 20:11:29 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-19 20:12:24 App\Jobs\VideoTranscode ............... 54,608.52ms DONE
+  2022-12-19 20:12:24 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-19 20:22:00 App\Jobs\VideoTranscode .............. 575,695.58ms DONE
+  2022-12-21 11:23:12 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 11:23:50 App\Jobs\VideoTranscode ............... 38,682.87ms DONE
+  2022-12-21 19:40:38 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 19:41:35 App\Jobs\VideoTranscode ............... 57,167.25ms DONE
+  2022-12-21 19:41:50 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 19:42:27 App\Jobs\VideoTranscode ............... 37,220.50ms DONE
+  2022-12-21 19:57:50 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 20:00:00 App\Jobs\VideoTranscode .............. 130,015.62ms DONE
+  2022-12-21 20:06:07 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 20:06:18 App\Jobs\VideoTranscode ............... 10,774.29ms DONE
+  2022-12-21 22:40:43 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 22:42:13 App\Jobs\VideoTranscode ............... 90,482.38ms DONE
+  2022-12-21 23:15:41 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-21 23:16:04 App\Jobs\VideoTranscode ............... 22,043.96ms DONE
+  2022-12-22 01:57:02 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 01:57:21 App\Jobs\VideoTranscode ............... 18,348.44ms DONE
+  2022-12-22 15:20:44 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 15:23:59 App\Jobs\VideoTranscode .............. 194,724.33ms DONE
+  2022-12-22 16:48:25 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 16:55:15 App\Jobs\VideoTranscode .............. 410,692.42ms DONE
+  2022-12-22 17:05:25 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 17:05:48 App\Jobs\VideoTranscode ............... 23,421.35ms DONE
+  2022-12-22 17:12:09 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 17:13:15 App\Jobs\VideoTranscode ............... 65,625.70ms DONE
+  2022-12-22 17:45:10 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 17:47:34 App\Jobs\VideoTranscode .............. 144,004.93ms DONE
+  2022-12-22 23:13:00 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-22 23:16:51 App\Jobs\VideoTranscode .............. 231,109.85ms DONE
+  2022-12-23 01:05:46 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-23 01:59:58 App\Jobs\VideoTranscode ............ 3,252,254.23ms DONE
+  2022-12-23 01:59:58 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-23 02:06:34 App\Jobs\VideoTranscode .............. 395,871.71ms DONE
+  2022-12-23 10:07:28 App\Jobs\VideoTranscode ........................ RUNNING
+  2022-12-23 10:18:42 App\Jobs\VideoTranscode .............. 674,360.42ms DONE
+PHP Fatal error:  Uncaught ErrorException: include(/var/www/webroot/vendor/composer/../nunomaduro/collision/src/Adapters/Laravel/IgnitionSolutionsRepository.php): Failed to open stream: No such file or directory in /var/www/webroot/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/webroot/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /var/www/webroot/vendor/composer/ClassLoader.php(571): include('...')
+#3 /var/www/webroot/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /var/www/webroot/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(54): Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}()
+#6 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#7 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#8 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#9 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#10 /var/www/webroot/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make()
+#11 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(211): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole()
+#12 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#13 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+  thrown in /var/www/webroot/vendor/composer/ClassLoader.php on line 571
+PHP Fatal error:  Uncaught ErrorException: include(/var/www/webroot/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /var/www/webroot/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/webroot/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /var/www/webroot/vendor/composer/ClassLoader.php(571): include('...')
+#3 /var/www/webroot/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(248): Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(235): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 /var/www/webroot/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /var/www/webroot/vendor/composer/ClassLoader.php on line 571
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+PHP Warning:  require(/var/www/webroot/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/webroot/artisan on line 18
+PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/webroot/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/webroot/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /var/www/webroot/artisan on line 18
+  2023-01-06 00:13:40 App\Jobs\VideoTranscode ........................ RUNNING
+  2023-01-06 00:14:20 App\Jobs\VideoTranscode ............... 39,573.62ms DONE
+  2023-01-06 00:18:11 App\Jobs\VideoTranscode ........................ RUNNING
+  2023-01-06 00:21:22 App\Jobs\VideoTranscode .............. 190,827.96ms DONE
